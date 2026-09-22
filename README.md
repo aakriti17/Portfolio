@@ -2,7 +2,7 @@
 
 A modern, high-performance, dark-themed cybersecurity and ethical hacking portfolio website built for **Aakriti**.
 
-Live Demo: [https://aakriti17.github.io/](https://aakriti17.github.io/)
+🌐 **Live Website**: [https://aakriti17.github.io/Portfolio/](https://aakriti17.github.io/Portfolio/)
 
 ---
 
@@ -30,7 +30,7 @@ Live Demo: [https://aakriti17.github.io/](https://aakriti17.github.io/)
 ## 📦 Project Structure
 
 ```
-portfolio/
+Portfolio/
 ├── index.html              # Main webpage markup
 ├── .nojekyll               # GitHub Pages direct asset serving rule
 ├── README.md               # Documentation
@@ -48,36 +48,14 @@ portfolio/
 
 ---
 
-## 🌐 How to Host on GitHub Pages (Step-by-Step)
+## 🌐 How GitHub Pages is Configured
 
-### Option 1: User Root Domain (Recommended)
-1. Create a new public repository on GitHub named: **`aakriti17.github.io`**
-2. Run `deploy.bat` inside this folder or execute:
-   ```bash
-   git init
-   git add .
-   git commit -m "Deploy Aakriti Cybersecurity Portfolio"
-   git branch -M main
-   git remote add origin https://github.com/aakriti17/aakriti17.github.io.git
-   git push -u origin main --force
-   ```
-3. Your site will automatically go live at **`https://aakriti17.github.io/`**!
-
----
-
-### Option 2: Project Repository (`portfolio`)
-1. Create a public repository named **`portfolio`** on GitHub.
-2. Push your files:
-   ```bash
-   git init
-   git add .
-   git commit -m "Deploy Portfolio"
-   git branch -M main
-   git remote add origin https://github.com/aakriti17/portfolio.git
-   git push -u origin main --force
-   ```
-3. Go to GitHub repo **Settings** -> **Pages** -> Source: **Deploy from a branch** -> Branch: **main** / **/(root)** -> Click **Save**.
-4. Your website is live at **`https://aakriti17.github.io/portfolio/`**!
+1. Go to repository **Settings** ➔ **Pages** (`https://github.com/aakriti17/Portfolio/settings/pages`)
+2. Under **Build and deployment**:
+   - **Source**: Select `Deploy from a branch`
+   - **Branch**: Select `main` / `/(root)`
+   - Click **Save**
+3. Site is live at: **[https://aakriti17.github.io/Portfolio/](https://aakriti17.github.io/Portfolio/)**
 
 ---
 
